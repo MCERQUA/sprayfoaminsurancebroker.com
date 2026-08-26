@@ -86,7 +86,6 @@ const config: Config = {
         "warm-radial":
           "radial-gradient(circle at 30% 20%, rgba(74,139,88,0.12) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(46,123,181,0.08) 0%, transparent 55%)",
         "clay-gradient": "linear-gradient(135deg, #2F6B3E 0%, #4A8B58 100%)",
-        "sage-gradient": "linear-gradient(135deg, #2E7BB5 0%, #5DA0CC 100%)",
         "gold-gradient": "linear-gradient(135deg, #E0A82E 0%, #F0C868 100%)",
       },
       boxShadow: {

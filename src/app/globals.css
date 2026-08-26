@@ -99,7 +99,7 @@
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 24%, #2E7BB5 58%, #E0A82E 100%);
+    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 50%, #E0A82E 100%);
   }
   .pill { @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-heading font-semibold uppercase tracking-wider; }
   .pill-clay { @apply pill bg-clay/10 text-clay border border-clay/20; }
@@ -132,8 +132,8 @@
   /* Field band — layered rolling hills = pasture horizon */
   .horizon-band {
     background: linear-gradient(180deg,
-      #2F6B3E 0% 18%, #4A8B58 18% 34%, #E0A82E 34% 48%,
-      #4A8B58 48% 62%, #2F6B3E 62% 78%, #2E7BB5 78% 100%);
+      #2F6B3E 0% 20%, #4A8B58 20% 40%, #E0A82E 40% 60%,
+      #4A8B58 60% 80%, #2F6B3E 80% 100%);
   }
   .grain {
     background-image:
@@ -148,7 +148,7 @@
   .arch-divider::after {
     content: ""; position: absolute; inset: 0; margin: auto;
     width: 10rem; height: 1.4rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 18%, #4A8B58 18% 40%, #E0A82E 40% 62%, #2E7BB5 62% 82%, #2F6B3E 82% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 25%, #4A8B58 25% 50%, #E0A82E 50% 75%, #2F6B3E 75% 100%);
     border-radius: 0.5rem; opacity: 0.92;
   }
 
@@ -161,7 +161,7 @@
   .prose-warm li::before {
     content: ""; position: absolute; left: 0; top: 0.55em;
     width: 1.1rem; height: 0.5rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 35%, #E0A82E 35% 70%, #2E7BB5 70% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 50%, #E0A82E 50% 100%);
     border-radius: 0.15rem 0.5rem 0.15rem 0.5rem; opacity: 0.9;
   }
   .prose-warm strong { @apply text-espresso font-semibold; }
