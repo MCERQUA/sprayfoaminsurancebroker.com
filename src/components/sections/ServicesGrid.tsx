@@ -4,7 +4,7 @@ import Link from "next/link";
 import {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck,
   Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, ArrowRight,
-  Milk, Droplets, Package, FileSearch, Award,
+  Droplets, Package, FileSearch, Award,
 } from "lucide-react";
 import { SERVICES } from "@/lib/site";
 import { COPY } from "@/lib/content";
@@ -12,7 +12,7 @@ import { FadeIn } from "@/components/animations/FadeIn";
 
 const ICONS = {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck,
-  Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, Milk, Droplets,
+  Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, Droplets,
   Package, FileSearch, Award,
 } as const;
 

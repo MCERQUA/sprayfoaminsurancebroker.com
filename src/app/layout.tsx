@@ -36,14 +36,14 @@ export const metadata: Metadata = {
     title: `${SITE.name} | Contractors Choice Agency`,
     description:
       "Independent spray foam insurance broker comparing GL, workers' comp, inland marine for rigs, contractors pollution liability, and commercial auto across multiple admitted and E&S markets. Licensed all 50 states. 15-min quotes.",
-    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `${SITE.name} — spray foam contractor coverage comparison` }],
+    images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: `${SITE.name} — spray foam contractor coverage comparison` }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE.name} | Contractors Choice Agency`,
     description:
       "Independent spray foam insurance broker — comparing GL, workers' comp, inland marine, CPL, and commercial auto across multiple markets to find the best rate for spray foam contractors. 15-minute quotes.",
-    images: ["/images/og-image.jpg"],
+    images: ["/images/og-image.png"],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   alternates: { canonical: SITE.url },
@@ -58,8 +58,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     url: SITE.url,
     telephone: "+18449675247",
     email: SITE.email,
-    image: `${SITE.url}/images/og-image.jpg`,
-    logo: `${SITE.url}/images/og-image.jpg`,
+    image: `${SITE.url}/images/og-image.png`,
+    logo: `${SITE.url}/images/og-image.png`,
     address: {
       "@type": "PostalAddress",
       streetAddress: SITE.address.street,
@@ -72,14 +72,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     employee: { "@type": "Person", name: "Josh Cotner", jobTitle: "Founder & Insurance Agent" },
     areaServed: { "@type": "Country", name: "United States" },
     serviceType: [
-      "Dairy Cattle & Livestock Mortality Insurance",
-      "Farm Property & Buildings Insurance for Dairies",
-      "Equipment Breakdown & Milk Spoilage Insurance",
-      "Dairy Product Liability Insurance",
-      "General Liability Insurance for Dairy Farms",
-      "Workers' Compensation for Dairy Crews",
-      "Commercial Auto & Trucking for Milk Tankers",
-      "Pollution & Environmental Liability for Dairies",
+      "General Liability Insurance for Spray Foam Contractors",
+      "Workers' Compensation for Spray Foam Applicators",
+      "Inland Marine Insurance for Spray Foam Rigs & Equipment",
+      "Contractors Pollution Liability for Spray Foam Operations",
+      "Commercial Auto Insurance for Spray Foam Contractors",
+      "High-Risk & E&S Programs for Spray Foam Contractors",
+      "Package (BOP) Programs for Spray Foam Businesses",
+      "Umbrella & Excess Liability for Spray Foam Contractors",
     ],
   };
 

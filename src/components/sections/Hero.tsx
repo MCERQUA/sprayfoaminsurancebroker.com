@@ -49,7 +49,7 @@ export function Hero() {
           <motion.div className="lg:col-span-6 relative" initial={prefersReduced ? {} : { opacity: 0, scale: 0.96 }} animate={prefersReduced ? {} : { opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.15 }}>
             <div className="relative">
               <div className="relative overflow-hidden rounded-t-[6rem] rounded-b-3xl shadow-warm-lg border-4 border-white">
-                <img src="/images/hero.jpg" alt={COPY.hero.imageAlt} className="w-full h-[420px] md:h-[520px] object-cover" loading="eager" />
+                <img src="/images/hero.png" alt={COPY.hero.imageAlt} className="w-full h-[420px] md:h-[520px] object-cover" loading="eager" />
                 <div className="absolute inset-0 bg-gradient-to-t from-espresso/30 via-transparent to-transparent" />
               </div>
 

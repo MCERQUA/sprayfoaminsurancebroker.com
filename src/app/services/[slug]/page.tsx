@@ -12,12 +12,12 @@ import {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck,
   Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes,
   CheckCircle2, ArrowRight, ArrowLeft, Users, Target,
-  Milk, Droplets,
+  Droplets,
 } from "lucide-react";
 
 const ICONS = {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck, Building2, Umbrella,
-  PackageCheck, Factory, Gauge, Boxes, Milk, Droplets,
+  PackageCheck, Factory, Gauge, Boxes, Droplets,
 } as const;
 
 export function generateStaticParams() {

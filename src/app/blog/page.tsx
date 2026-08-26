@@ -58,7 +58,7 @@ export default function BlogPage() {
                     <Link href={`/blog/${featured.slug}`} className="group block">
                       <article className="grid md:grid-cols-2 gap-0 rounded-[2rem] overflow-hidden bg-white border border-adobe shadow-card hover:shadow-card-hover transition-all">
                         <div className="relative overflow-hidden">
-                          <img src={featured.image || "/images/hero.jpg"} alt={featured.title} className="w-full h-64 md:h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                          <img src={featured.image || "/images/hero.png"} alt={featured.title} className="w-full h-64 md:h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                           <div className="absolute top-4 left-4"><span className="pill-gold !bg-gold !text-espresso !border-gold-dark">Featured</span></div>
                         </div>
                         <div className="p-8 md:p-10 flex flex-col justify-center">

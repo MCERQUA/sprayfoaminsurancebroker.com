@@ -32,7 +32,7 @@ export function CoverageMap() {
 
           <FadeIn direction="left">
             <div className="relative rounded-t-[12rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
-              <img src="/images/coverage.jpg" alt={COPY.coverage.imageAlt} className="w-full h-[360px] md:h-[440px] object-cover" loading="lazy" />
+              <img src="/images/coverage.png" alt={COPY.coverage.imageAlt} className="w-full h-[360px] md:h-[440px] object-cover" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-espresso/55 via-espresso/10 to-transparent" />
               <div className="absolute bottom-0 inset-x-0 p-7">
                 <p className="font-heading font-extrabold text-cream text-2xl leading-tight">{COPY.coverage.badgeTitle}</p>

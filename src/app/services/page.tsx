@@ -9,12 +9,12 @@ import { COPY } from "@/lib/content";
 import {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck,
   Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, ArrowRight,
-  Milk, Droplets, Package, FileSearch, Award,
+  Droplets, Package, FileSearch, Award,
 } from "lucide-react";
 
 const ICONS = {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck, Building2, Umbrella,
-  PackageCheck, Factory, Gauge, Boxes, Milk, Droplets, Package, FileSearch, Award,
+  PackageCheck, Factory, Gauge, Boxes, Droplets, Package, FileSearch, Award,
 } as const;
 
 export const metadata: Metadata = {
