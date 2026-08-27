@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 /* ============================================================
-   DAIRY INSURANCE — "Fresh Pasture" Design System
-   Light · corporate · clean · rolling-pasture motif
-   (token NAMES inherited; VALUES remapped: clay=pasture green,
-   sage=stream blue, gold=honey)
+   SPRAY FOAM INSURANCE BROKER — Design System
+   Light · corporate · clean
+   (Token NAMES are inherited from the scaffold this site was copied
+   from; VALUES are remapped: clay, sage, gold. The names are kept
+   because they are referenced throughout — do not assume the
+   original palette meanings apply.)
    ============================================================ */
 
 @layer base {
@@ -110,7 +112,7 @@
   .h-section { @apply font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-espresso leading-[1.1]; }
   .lead { @apply text-lg md:text-xl text-mocha leading-relaxed; }
 
-  /* === Decorative motifs — "pasture" (rolling green hills) === */
+  /* === Decorative motifs — soft radial background washes === */
   .bg-sonoran {
     background-color: var(--bg-cream);
     background-image:
@@ -129,7 +131,7 @@
       radial-gradient(ellipse at bottom right, rgba(46, 123, 181, 0.07) 0%, transparent 50%),
       var(--bg-cream);
   }
-  /* Field band — layered rolling hills = pasture horizon */
+  /* Field band — layered background wash */
   .horizon-band {
     background: linear-gradient(180deg,
       #2F6B3E 0% 20%, #4A8B58 20% 40%, #E0A82E 40% 60%,
